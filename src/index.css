@@ -1,0 +1,869 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+#headerbg{
+    background-color: steelblue;
+    height:45px;
+    font-size: x-large;
+    color: white;
+
+}
+.navbar-brand{
+    color: white;
+    font-size: x-large;
+    
+}
+
+.dropdown-menu{
+    color: white;
+}
+#navbarDropdown{
+    color: white;
+    font-size: x-large;
+}
+#footerbg{
+    background-color: steelblue;
+    margin-top: 26rem;
+}
+body{
+ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f1f5f8;
+    color: #222;
+    
+}
+.booklist{
+    width:85vw;
+    margin:0rem auto;
+    display:grid;
+    gap: 0.5rem;
+    margin-top: 0.5rem;     
+    float: right;
+}
+
+@media screen and (min-width:768px){
+    .booklist{
+        grid-template-columns: repeat(6,1fr);
+    }
+  
+}
+.book{
+    background: #fff;
+    border-radius: 0rem;
+    padding: 0.4rem 0.4rem;
+    
+
+}
+
+.book img{
+    float: left;
+    width:16%;
+    height:54px;
+    padding: 15px 0;
+    background-color: palevioletred;
+    
+    
+    
+}
+
+.book h1{
+    color: royalblue;
+    font-size:0.80rem;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:0.7px;
+
+}
+.book h2{
+    text-align:center;
+    color:black;
+    letter-spacing: 2px;
+    font-size: 0.90rem;
+   
+}
+
+
+/* userlist */
+
+.userlist{
+    width: 13vw;
+        margin: 0rem auto;
+        display: grid;
+        gap: 0.5rem;
+        margin-top:0.3rem;
+        float: left;
+       
+        
+}
+
+@media screen and (min-width:768px) {
+    .userlist {
+        grid-template-rows:repeat(1, 1fr); 
+    }
+
+}
+.user{
+    background: #fff;
+    border-radius: 0rem;
+    padding: 0.1rem 0.5rem;
+
+}
+.user img{
+    float: left;
+    width: 30%;
+    height: 40px;
+    padding: 0 8px 0 0;
+    border-radius: 50%;
+    
+    
+
+
+}
+.user h1{
+    color:royalblue;
+    font-size: 0.76rem;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+    letter-spacing: 00.3px;
+    
+    
+
+}
+.user h2{
+    text-align: justify;
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 0.65rem;
+    line-height:2px;
+    
+    
+}
+.menu img{
+    float: right;
+    width: 20px;
+    height: 15px; 
+    object-fit:cover;
+    padding: 1px 0;
+    
+    
+    
+       
+}
+.main{
+    margin-top: 0rem;
+    
+}
+
+
+.search{
+    float: inline-start;
+    margin: 0rem auto;
+    margin-top: 0rem;
+    
+}
+
+.drop {
+    width: 15rem;
+    margin-top: 0rem;
+}
+
+.container{
+    width: 35%;
+    margin-top: 0.3rem;
+    float: left;
+}
+
+.row{
+    float: center;
+    margin-top: 0rem;
+}
+
+.logo{
+background-color:steelblue;
+height: 50px;
+width: 100%;
+}
+
+
+.timelist {
+    width: 85vw;
+    margin: 0rem auto;
+    display:grid;
+    gap: 2rem;
+    margin-top: 0rem;
+    float: right;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .timelist {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+}
+
+/* .time {
+    background:green;
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    
+
+} */
+
+
+.time h1 {
+    color:white;
+    font-size: 0.65rem;
+    text-align: center;
+    gap: 0rem;
+    
+
+}
+
+.time h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 0.65rem;
+    line-height: 3px;
+}
+
+
+.viewlist {
+    width: 85vw;
+    margin: 0rem auto;
+    display: grid;
+    gap: 2rem;
+    margin-top: 0.1rem;
+    float: right;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .viewlist {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+}
+
+/* .view {
+    background: steelblue;
+    border-radius: 1rem;
+    padding: 0.1rem 0.1rem;
+
+} */
+
+
+.view h1 {
+    color: white;
+    font-size: 0.65rem;
+    text-align: center;
+
+}
+
+.view h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 0.65rem;
+    line-height: 3px;
+}
+
+
+.readlist {
+    width: 85vw;
+    margin: 0rem auto;
+    display: grid;
+    gap: 2rem;
+    margin-top: 0.1rem;
+    float: right;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .readlist {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+}
+
+/* .read {
+    background: steelblue;
+    border-radius: 1rem;
+    padding: 0.1rem 0.1rem;
+
+} */
+
+
+.read h1 {
+    color: white;
+    font-size: 0.65rem;
+    text-align: center;
+
+}
+
+.read h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 0.65rem;
+    line-height: 3px;
+}
+
+
+.loglist {
+    width: 85vw;
+    margin: 0rem auto;
+    display: grid;
+    gap: 2rem;
+    margin-top: 0.1rem;
+    float: right;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .loglist {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+}
+
+/* .log {
+    background: steelblue;
+    border-radius: 1rem;
+    padding: 0.1rem 0.1rem;
+
+} */
+
+
+.log h1 {
+    color: white;
+    font-size: 0.65rem;
+    text-align: center;
+
+}
+
+.log h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 0.65rem;
+    line-height: 3px;
+}
+
+.outlist {
+    width: 85vw;
+    margin: 0rem auto;
+    display: grid;
+    gap: 2rem;
+    margin-top: 0rem;
+    float: right;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .outlist {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+}
+
+/* .out {
+    background: steelblue;
+    border-radius: 1rem;
+    padding: 0.1rem 0.1rem;
+
+} */
+
+
+.out h1 {
+    color: white;
+    font-size: 0.65rem;
+    text-align: center;
+
+}
+
+.out h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 0.65rem;
+    line-height: 3px;
+}
+
+.inlist {
+    width: 85vw;
+    margin: 0rem auto;
+    display: grid;
+    gap: 2rem;
+    margin-top: 0.1rem;
+    float: right;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .inlist {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+}
+
+/* .in {
+    background: steelblue;
+    border-radius: 1rem;
+    padding: 0.1rem 0.1rem;
+
+} */
+
+
+.in h1 {
+    color: white;
+    font-size: 0.65rem;
+    text-align: center;
+
+}
+
+.in h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0px;
+    font-size: 0.65rem;
+    line-height: 3px;
+}
+
+input{
+    width:200px;
+    border-radius: 0.8rem;
+    margin-top: 0.6rem;
+}
+
+#footerbg h6{
+    color: white;
+    text-align: end;
+    margin-top: 0rem;
+}
+
+
+/* footer component */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    float: left;
+}
+
+th,
+td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+td {
+    background-color: rgb(205, 235, 253);
+}
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form * {
+    font-size: 15px;
+}
+
+/* testing css */
+
+.testlist {
+    width: 85vw;
+    margin: 0rem auto;
+    gap: 0rem;
+    margin-top: 0.7rem;
+    float:right;
+    display: grid;
+}
+
+@media screen and (min-width:768px) {
+    .testlist {
+        grid-template-columns: repeat(13, 1fr);
+    }
+
+.testing {
+  background: #fff;
+  border-radius: 0rem;
+  padding: 0rem 0rem;
+         }
+
+}
+
+.testing h1{
+    text-align: right;
+    font-size: small;
+}
+
+.define{
+    margin-top: 0.3rem;
+    background-color: rgb(55, 226, 55);
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width:10rem;
+        height: 63px;
+        
+}
+
+.defines{
+    margin-top: 0.3rem;
+     background-color:rgb(54, 179, 221);
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width: 10rem;
+            height: 63px;
+}
+
+.arrow{
+    margin-top: 0.3rem;
+    background-color: rgb(226, 226, 86);
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width: 10rem;
+            height: 63px;
+}
+
+.arrows {
+    margin-top: 0.3rem;
+    background-color: tomato;
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+        height: 63px;
+}
+
+.button{
+    margin-top: 0.3rem;
+    background-color:rgb(54, 179, 221);
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width: 10rem;
+            height: 63px;
+}
+
+.buttons{
+    margin-top: 0.3rem;
+    background-color: rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+        height: 63px;
+}
+
+
+.fine{
+    margin-top: 0.3rem;
+    background-color: rgb(226, 226, 86);
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width:10rem;
+        height: 63px;
+        
+}
+
+.fines{
+    margin-top: 0.3rem;
+     background-color:tomato;
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width: 10rem;
+            height: 63px;
+}
+
+.arrowed{
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width: 10rem;
+            height: 63px;
+}
+
+.arroweds {
+    margin-top: 0.3rem;
+    background-color:rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+        height: 63px;
+}
+
+.ton{
+    margin-top: 0.3rem;
+    background-color:tomato;
+        border-radius: 0.7rem;
+        padding: 0rem 0rem;
+        width: 10rem;
+            height: 63px;
+}
+
+.tons{
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+        height: 63px;
+}
+
+
+.slot {
+    margin-top: 0.3rem;
+    background-color: tomato;
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+
+}
+
+.slot1 {
+    margin-top: 0.3rem;
+    background-color:rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot2{
+    margin-top: 0.3rem;
+    background-color: rgb(226, 226, 86);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot3 {
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot4 {
+    margin-top: 0.3rem;
+    background-color:rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot5 {
+    margin-top: 0.3rem;
+    background-color: rgb(226, 226, 86);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+
+.slot6 {
+    margin-top: 0.3rem;
+    background-color:rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+
+}
+
+.slot7 {
+    margin-top: 0.3rem;
+    background-color:rgb(226, 226, 86);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot8{
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot9{
+    margin-top: 0.3rem;
+    background-color: rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot10 {
+    margin-top: 0.3rem;
+    background-color: tomato;
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot11 {
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+
+.slot12 {
+    margin-top: 0.3rem;
+    background-color: rgb(226, 226, 86);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+
+}
+
+.slot13 {
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot14 {
+    margin-top: 0.3rem;
+    background-color: tomato;
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot15{
+    margin-top: 0.3rem;
+    background-color: rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot16 {
+    margin-top: 0.3rem;
+    background-color: rgb(212, 212, 53);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot17 {
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot18 {
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+
+}
+
+.slot19 {
+    margin-top: 0.3rem;
+    background-color:rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot20 {
+    margin-top: 0.3rem;
+    background-color: rgb(54, 179, 221);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot21 {
+    margin-top: 0.3rem;
+    background-color: rgb(226, 226, 86);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot22 {
+    margin-top: 0.3rem;
+    background-color: rgb(55, 226, 55);
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.slot23 {
+    margin-top: 0.3rem;
+    background-color: tomato;
+    border-radius: 0.7rem;
+    padding: 0rem 0rem;
+    width: 10rem;
+    height: 63px;
+}
+
+.filter{
+    border-radius:0rem;
+    margin-top: 0rem;
+}
