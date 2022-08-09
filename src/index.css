@@ -27,7 +27,7 @@
 }
 #footerbg{
     background-color: steelblue;
-    margin-top: 26rem;
+    margin-top: 28rem;
 }
 body{
  
@@ -94,7 +94,7 @@ body{
         margin: 0rem auto;
         display: grid;
         gap: 0.5rem;
-        margin-top:0.3rem;
+        margin-top:2.1rem;
         float: left;
        
         
@@ -195,7 +195,7 @@ width: 100%;
     margin: 0rem auto;
     display:grid;
     gap: 2rem;
-    margin-top: 0rem;
+    margin-top: 0.2rem;
     float: right;
 
 
@@ -866,4 +866,70 @@ form * {
 .filter{
     border-radius:0rem;
     margin-top: 0rem;
+}
+
+.colorlist {
+    width: 85vw;
+    margin: 0rem auto;
+    display: grid;
+    gap: 2rem;
+    margin-top: 0.1rem;
+    float: right;
+
+
+}
+
+@media screen and (min-width:768px) {
+    .colorlist {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+
+.color img {
+    float: left;
+    width: 15%;
+    height: 20px;
+    
+    
+}
+.color h1 {
+    color:black ;
+    font-size: 0.85rem;
+    letter-spacing: normal;
+    text-align: center;
+
+}
+
+.slot24 {
+    margin-top: 0.3rem;
+    border-radius: 0rem;
+    padding: 0rem 0rem;
+    width: 8rem;
+    height: 20px;
+}
+
+.slot25 {
+    margin-top: 0.3rem;
+    border-radius: 0rem;
+    padding: 0rem 0rem;
+    width: 8rem;
+    height: 20px;
+}
+
+.slot26 {
+    margin-top: 0.3rem;
+    border-radius: 0rem;
+    padding: 0rem 0rem;
+    width: 8rem;
+    height: 20px;
+}
+
+.slot27 {
+    margin-top: 0.3rem;
+    border-radius: 0rem;
+    padding: 0rem 0rem;
+    width: 8rem;
+    height: 20px;
 }

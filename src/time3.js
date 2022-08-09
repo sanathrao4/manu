@@ -3,7 +3,7 @@ const slot = {
    contact: '7619414659',
     slotstartts: "8:00 AM",
     slotendts: "10:00 AM",
-    woid: 109,
+    woid: "woid 113",
     wostatus: "Esclate"
     
 }
@@ -13,7 +13,7 @@ const slot1= {
     contact: '7619414659',
     slotstartts: "10:00 AM",
     slotendts: "12:00 AM",
-    woid: 109,
+    woid: "woid 114",
     wostatus: "Completed"
     
    
@@ -24,7 +24,7 @@ const slot2= {
  contact: '7619414659',
     slotstartts: "1:00 PM",
     slotendts: "2:00 PM",
-    woid: 109,
+    woid: "woid 115",
     wostatus: "Inprogress"
     
    
@@ -35,7 +35,7 @@ const slot3 = {
     contact: '7619414659',
     slotstartts: "2:00 PM",
     slotendts: "4:00 PM",
-    woid: 109,
+    woid: "woid 116",
     wostatus: "Open"
     
    
@@ -46,7 +46,7 @@ const slot4 = {
    contact: '7619414659',
     slotstartts: "4:00 PM",
     slotendts: "6:00 PM",
-    woid: 109,
+    woid: "woid 117",
     wostatus: "Completed"
     
    
@@ -58,7 +58,7 @@ const slot5 = {
   contact: '7619414659',
     slotstartts: "6:00 PM",
     slotendts: "8:00 PM",
-    woid: 109,
+    woid: "woid 118",
     wostatus: "Inprogress"
     
 }

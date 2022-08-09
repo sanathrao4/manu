@@ -17,7 +17,8 @@ import Datepick from './datepicker';
 import Table from './table';
 import TestList from './testing';
 import Filter from './filter';
-
+import Colorlist from './color';
+import Demo from './demo';
 
 
 
@@ -42,12 +43,19 @@ const App = () => {
                 <TestList/>
             </div>
             <div>
+                <Colorlist/>
+            </div>
+            <div>
                 <Filter/>
             </div>
               <div>
                 <UserList />
             </div>
+
             <div>
+                <Demo/>
+            </div>
+            {/* <div>
                 <Timelist/>
             </div>
             <div>
@@ -64,7 +72,7 @@ const App = () => {
             </div>
             <div>
                 <Inlist/>
-            </div>
+            </div> */}
             <div>
                 <Footer/>
             </div>
